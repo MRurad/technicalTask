@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 700px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 72px;
+}
+
+.buttons button {
+  width: 225px;
+  height: 48px;
+  border-radius: 12px;
+  padding: 14px 87px;
+  background: #274de0;
+  color: #fff;
+  border: none;
+}
+
+table {
+  border-collapse: collapse;
+  width: 700px;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 15px 10px;
+  text-align: center;
+
+  border: 3px solid #000;
+}
+
+.hidden {
+  display: none;
+}
+
+td:nth-child(1) {
+  width: 80px;
+  text-align: center;
+}
+
+td:nth-child(2) {
+  width: 80px;
+  text-align: center;
+}
+
+td:last-child {
+  width: 80px;
+
+  text-align: center;
+}
+
+.actions {
+  margin-top: 29px;
+  display: flex;
+  align-items: center;
+}
+
+.actions input {
+  width: 180px;
+  height: 49px;
+  border-radius: 10px;
+  padding: 16px 25px;
+  border: 1px solid #e5e5e5;
+}
+
+.actions button {
+  width: 225px;
+  height: 48px;
+  border-radius: 12px;
+  padding: 14px 87px;
+  background: #274de0;
+  color: #fff;
+  border: none;
+}
+
+.post-inp {
+  margin-right: 29px;
+}
+
+.user-inp {
+  margin-right: 53px;
+}
+
+td input {
+  accent-color: #000;
+  width: 20px;
+  height: 20px;
+}
